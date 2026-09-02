@@ -1,4 +1,4 @@
-## Holistic Fusion Based Stop Line Estimation
+## Holistic Grid Fusion Based Stop Line Estimation
 
 _Runsheng Xu, Faezeh Tafazzoli, Li Zhang, Timo Rehfeld, Gunther Krehl, Arunava Seal_
 

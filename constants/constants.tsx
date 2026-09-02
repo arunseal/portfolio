@@ -1,10 +1,6 @@
 import React from 'react';
 import { SiHackerrank } from 'react-icons/si';
-import {
-  IconBrandFacebookFilled,
-  IconBrandLinkedin,
-  IconBrandGithubFilled,
-} from '@tabler/icons-react';
+import { IconBrandLinkedin, IconBrandGithubFilled } from '@tabler/icons-react';
 
 export const PAGES = [
   { link: '/', label: 'Home' },
@@ -13,7 +9,8 @@ export const PAGES = [
   { link: '/publications', label: 'Publications' },
   { link: '/patents', label: 'Patents' },
   { link: '/certifications', label: 'Certifications' },
-  { link: '/extra-curriculars', label: 'Extra-Curriculars' },
+  { link: '/extracurriculars', label: 'Extra-Curriculars' },
+  { link: '/resume', label: 'Resume' },
 ];
 
 export const THEME_ICON_SIZE = 50;
@@ -32,11 +29,6 @@ export const SOCIALS = [
     name: 'HackerRank',
     icon: <SiHackerrank />,
     url: 'https://www.hackerrank.com/arunseal?hr_r=1',
-  },
-  {
-    name: 'Facebook',
-    icon: <IconBrandFacebookFilled />,
-    url: 'https://www.facebook.com/arunavaseal95',
   },
 ];
 
