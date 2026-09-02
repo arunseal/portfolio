@@ -7,6 +7,7 @@ import { Notifications } from '@mantine/notifications';
 import AppHeader from '../components/Header';
 import { NavbarSimple } from '../components/Navbar';
 import { Analytics } from '@vercel/analytics/react';
+import '../styles/print.css';
 
 export default function App(props: AppProps & { colorScheme: ColorScheme }) {
   const { Component, pageProps } = props;

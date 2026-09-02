@@ -62,7 +62,7 @@ const HomePage: React.FC<HomePageProps> = ({ content }) => {
           </Title>
 
           <Title order={2} weight={300} sx={{ fontSize: rem(40) }}>
-            Machine Learning | Full-Stack | Software Engineering
+            ML Infrastructure | Full-Stack Engineering | Autonomy
           </Title>
           <Group>
             <Anchor

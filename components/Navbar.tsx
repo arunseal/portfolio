@@ -41,6 +41,7 @@ const PAGES = [
   { link: '/patents', label: 'Patents' },
   { link: '/certifications', label: 'Certifications' },
   { link: '/extracurriculars', label: 'Extra-Curriculars' },
+  { link: '/resume', label: 'Resume' },
 ];
 
 type NavbarProps = {

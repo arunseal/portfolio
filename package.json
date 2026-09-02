@@ -9,6 +9,7 @@
     "start": "next start",
     "typecheck": "tsc --noEmit",
     "export": "next build && next export",
+    "resume:check": "python3 scripts/pdf-text.py",
     "lint": "next lint",
     "jest": "jest",
     "jest:watch": "jest --watch",
