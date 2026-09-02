@@ -1,10 +1,15 @@
-const withBundleAnalyzer = require('@next/bundle-analyzer')({
-  enabled: process.env.ANALYZE === 'true',
-});
-
-module.exports = withBundleAnalyzer({
+/** @type {import('next').NextConfig} */
+const nextConfig = {
   reactStrictMode: false,
-  eslint: {
-    ignoreDuringBuilds: true,
-  },
-});
+  // Next 16 builds with Turbopack by default. An empty config confirms that is
+  // intentional; without it the bundle-analyzer plugin's webpack config below
+  // makes the build error out.
+  turbopack: {},
+};
+
+// Only wrap when analysing: the plugin adds a webpack config, which Turbopack
+// refuses to build alongside.
+module.exports =
+  process.env.ANALYZE === 'true'
+    ? require('@next/bundle-analyzer')({ enabled: true })(nextConfig)
+    : nextConfig;
