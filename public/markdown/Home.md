@@ -1,4 +1,4 @@
-#### I'm a Software Engineer leading the _ML/AI Applications_ team within Rivian's _Autonomy_ organization.
+#### I'm a Sr. Manager leading the _ML/AI Applications_ team within Rivian's _Autonomy_ organization.
 
 I build the foundational infrastructure that powers large scale _ML/AI model training_:
 

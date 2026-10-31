@@ -32,7 +32,7 @@ export interface ResumeEducation {
 
 export const PROFILE = {
   name: 'Arunava Seal',
-  title: 'Sr. Lead Software Engineer, ML/AI Applications',
+  title: 'Sr. Manager, ML/AI Applications',
   location: 'Sunnyvale, California',
   email: 'arunavaseal1@gmail.com',
   linkedin: 'linkedin.com/in/arunava-seal',
@@ -41,7 +41,7 @@ export const PROFILE = {
 };
 
 export const SUMMARY =
-  "Software engineer leading the cross-functional ML/AI Applications team in Rivian's Autonomy organization, " +
+  "Sr. Manager leading the cross-functional ML/AI Applications team in Rivian's Autonomy organization, " +
   'building the infrastructure behind large-scale model training - labeling platforms, data discovery ' +
   'and curation, and end-to-end MLOps at petabyte scale. Background spans autonomous driving, computer ' +
   'vision and cloud engineering across Rivian and Mercedes-Benz R&D.';
